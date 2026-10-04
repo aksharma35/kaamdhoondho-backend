@@ -1,0 +1,17 @@
+// Prisma schema — single source of truth for the database.
+// Docs: https://pris.ly/d/prisma-schema
+//
+// Workflow:
+//   1. Add/modify models below
+//   2. npm run db:migrate -- --name <change_name>   (creates + applies a migration)
+//   3. Commit both this file and the generated prisma/migrations/* folder
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// Models will be added here once we finalize the domain.

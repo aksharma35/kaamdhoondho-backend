@@ -8,3 +8,9 @@ logs/
 coverage/
 dist/
 .DS_Store
+
+# AI agent skill files dropped by `prisma init`
+.agents/
+.claude/
+.windsurf/
+skills-lock.json
