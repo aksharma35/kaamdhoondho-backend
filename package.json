@@ -1,0 +1,26 @@
+{
+  "name": "kaamdhoondho-backend",
+  "version": "1.0.0",
+  "description": "Backend for KaamDhoondho",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksharma35/kaamdhoondho-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksharma35/kaamdhoondho-backend/issues"
+  },
+  "homepage": "https://github.com/aksharma35/kaamdhoondho-backend#readme",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=22"
+  }
+}
